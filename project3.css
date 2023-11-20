@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    outline: none;
+    list-style-type: none;
+}
+.contsiner{
+width: 100%;
+height: 100vh;
+background-color: rgb(194, 251, 251);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-body{
+  text-align: center;
+ justify-content: center;
+align-items: center;
+}
+.card{
+
+width: 32rem;
+height: 20rem;
+background-color: rgb(255, 0, 221);
+border-radius: 0.6rem;
+padding: 1rem;
+box-shadow: 0.1rem 0.1rem 0.1rem rgb(169, 111, 227),-0.1rem 0 0.1rem rgb(63, 23, 183);
+font-size: 1.2rem;
+
+}
+.card:hover{
+    box-shadow: 0.42rem 0.45rem 1rem rgb(240, 3, 3),0.3rem 0 0.3rem rgb(206, 13, 13) ;
+}
+.card-tuitle{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+.form-field{
+    margin-bottom: 1.5rem;
+}
+input{
+    border: none;
+    border: 0.2rem salmon;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: rgb(226, 152, 206);
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    width: 45%;
+
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.btn{
+    border: none;
+    border: 0.2rem rgb(15, 15, 14);
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: rgb(214, 167, 202);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+    width: 35%;
+}
+.btn:hover{
+    background-color: rgb(132, 132, 152);
+    color: black;
+}
+p{
+    text-align: center;
+}
+
+.large-Text{
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
